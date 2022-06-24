@@ -1,3 +1,19 @@
 * {
   margin: 0;
   padding: 0; }
+
+.header {
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header__logo {
+    margin-left: 1rem; }
+  .header__ul {
+    display: flex;
+    list-style: none; }
+    .header__ul li {
+      margin: 1rem;
+      font-weight: bold; }
+    .header__ul--active {
+      color: red; }
