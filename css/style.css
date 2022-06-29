@@ -1,6 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 * {
   margin: 0;
   padding: 0; }
+
+main .seccion1 p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 25px; }
 
 .header {
   background-color: bisque;
@@ -17,3 +25,15 @@
       font-weight: bold; }
     .header__ul--active {
       color: red; }
+
+main {
+  background-color: grey; }
+  main h1 {
+    font-family: "Titan One", cursive;
+    color: white; }
+  main .seccion1 {
+    width: 350px; }
+
+h2 {
+  color: yellow;
+  background-color: black; }
