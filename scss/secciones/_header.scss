@@ -1,11 +1,16 @@
 .header{
-    background-color: bisque;
+    background-color: $colorFondo;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    &__logo{
-        margin-left: 1rem;
+    h1{
+        font-family: $TitanOne;
+        color: white;
     }
+    p{
+        @extend %estilosParrafo;
+    }
+
     &__ul{
         display: flex;
         list-style: none;
