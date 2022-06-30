@@ -10,6 +10,11 @@ header p {
   font-size: 25px;
   color: white; }
 
+#suscribete .sectionform h2 {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  color: black; }
+
 header {
   background-color: grey;
   display: flex;
@@ -71,5 +76,6 @@ footer {
     flex-direction: column; } }
 
 #suscribete {
-  background-color: lightgrey;
-  text-align: center; }
+  background-color: lightgray;
+  text-align: center;
+  font-weight: bold; }

@@ -1,7 +1,11 @@
 #suscribete{
-    background-color: lightgrey;
+    background-color: lightgray;
     text-align: center;
-    .h2{
-        @extend %estilosTitulo;
+    font-weight: bold;
+    .sectionform h2{
+       @extend %estilosTitulo;
     }
+    
 }
+
+  
