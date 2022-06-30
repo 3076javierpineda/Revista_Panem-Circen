@@ -25,15 +25,11 @@ main {
     font-family: "Titan One", cursive;
     color: white; }
   main .seccion1 {
-    width: 350px; }
-
-h2 {
-  color: yellow;
-  background-color: black; }
+    width: 100px; }
 
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: grey; }
   footer i {
@@ -67,3 +63,7 @@ footer {
     text-align: center; }
   #index .card img {
     max-height: 170px; }
+
+#suscribete {
+  background-color: lightgrey;
+  text-align: center; }
