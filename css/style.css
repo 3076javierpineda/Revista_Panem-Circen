@@ -4,28 +4,20 @@
   margin: 0;
   padding: 0; }
 
-.header p, main .seccion1 p {
+header p, main .seccion1 p {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 25px;
   color: white; }
 
-.header {
+header {
   background-color: grey;
   display: flex;
   justify-content: space-evenly;
   align-items: center; }
-  .header h1 {
+  header h1 {
     font-family: "Titan One", cursive;
     color: white; }
-  .header__ul {
-    display: flex;
-    list-style: none; }
-    .header__ul li {
-      margin: 1rem;
-      font-weight: bold; }
-    .header__ul--active {
-      color: red; }
 
 main {
   background-color: grey; }
@@ -39,9 +31,39 @@ h2 {
   color: yellow;
   background-color: black; }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey; }
+  footer i {
+    font-size: 30px;
+    margin: 5px; }
+
 #index {
   background-color: grey; }
   #index .section1 li {
     font-size: 18px;
     font-weight: bold;
-    margin: 1rem; }
+    margin: .8rem; }
+  #index .carousel-inner img {
+    max-height: 550px;
+    width: 100%; }
+  #index .carousel-inner {
+    height: 500px; }
+    #index .carousel-inner h5 {
+      color: black; }
+    #index .carousel-inner p {
+      color: black; }
+  #index .section3 h3 {
+    font-family: "Roboto", sans-serif;
+    text-align: center; }
+  #index .list-group-item {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold; }
+  #index .section4 {
+    font-family: "Roboto", sans-serif;
+    text-align: center; }
+  #index .card img {
+    max-height: 170px; }

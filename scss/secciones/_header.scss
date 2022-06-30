@@ -1,4 +1,4 @@
-.header{
+header{
     background-color: $colorFondo;
     display: flex;
     justify-content: space-evenly;
@@ -9,16 +9,5 @@
     }
     p{
         @extend %estilosParrafo;
-    }
-
-    &__ul{
-        display: flex;
-        list-style: none;
-        li{
-            margin: 1rem;
-            font-weight: bold;
-        }
-        &--active{
-            color: red}
     }
 }
