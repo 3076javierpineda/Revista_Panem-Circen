@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0; }
 
-header p, main .seccion1 p {
+header p {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 25px;
@@ -18,14 +18,6 @@ header {
   header h1 {
     font-family: "Titan One", cursive;
     color: white; }
-
-main {
-  background-color: grey; }
-  main h1 {
-    font-family: "Titan One", cursive;
-    color: white; }
-  main .seccion1 {
-    width: 100px; }
 
 footer {
   display: flex;
@@ -63,6 +55,20 @@ footer {
     text-align: center; }
   #index .card img {
     max-height: 170px; }
+
+@media (max-width: 480px) {
+  .navbar-brand {
+    display: none; }
+  .header p {
+    display: none; }
+  .carousel-inner img {
+    max-height: 300px;
+    width: 100%; }
+  .card img {
+    max-height: 100px; }
+  .footer {
+    display: flex;
+    flex-direction: column; } }
 
 #suscribete {
   background-color: lightgrey;

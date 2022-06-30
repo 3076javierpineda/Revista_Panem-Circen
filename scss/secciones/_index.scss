@@ -36,8 +36,30 @@
 
     .card img{
         max-height: 170px;
-    }
-    .card img:hover {
-        filter: blur(2px);
-    }
+    } 
+}
+
+@media (max-width:480px){
+
+        .navbar-brand{
+            display: none;
+        }
+
+        .header p{
+            display: none;
+        }
+
+        .carousel-inner img{
+            max-height: 300px;
+            width: 100%;
+        }
+
+        .card img{
+            max-height: 100px;
+        } 
+
+        .footer{
+            display: flex;
+            flex-direction: column;
+        }
 }
