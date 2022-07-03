@@ -3,25 +3,23 @@
 }
 
 .section2ha{
-    display: flex;
-    margin: 10px;
-    justify-content: space-around;
-    border: solid 2px black;
-    align-items: center;
-    p{
-        @extend %estilosParrafohogar;
-        margin: 5px;
-    }
-    h1{
-        font-size: 20px;
-        font-family: $Roboto;
-        margin: 5px;
-        text-align: center;
-    }
+    @extend %estilosdivhogar
+}
 
-    .section2ha-ph{
-        justify-content: center;
+@media (max-width:480px){
+
+    .section2ha{
+        flex-direction: column;
+        border: none;
+        p{
+            font-size: 16px;
+        }
+    
     }
 }
 
 
+        
+        
+
+        

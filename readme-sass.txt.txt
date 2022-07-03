@@ -27,3 +27,8 @@
 
 //fin
 
+compilar sass
+
+para compilar proyectocon istalacion global
+
+        sass --watch scss/main.scss css/style.css

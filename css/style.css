@@ -26,6 +26,27 @@ header p {
   font-weight: bold;
 }
 
+.section2ha {
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+  justify-content: space-around;
+  border: solid 2px black;
+  align-items: center;
+}
+.section2ha p {
+  margin: 5px;
+}
+.section2ha h1 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  margin: 5px;
+  text-align: center;
+}
+.section2ha .section2ha-ph p {
+  margin: 0 auto;
+}
+
 header {
   background-color: grey;
   display: flex;
@@ -112,26 +133,15 @@ footer i:hover {
   background-color: beige;
 }
 
-.section2ha {
-  display: flex;
-  margin: 10px;
-  justify-content: space-around;
-  border: solid 2px black;
-  align-items: center;
+@media (max-width: 480px) {
+  .section2ha {
+    flex-direction: column;
+    border: none;
+  }
+  .section2ha p {
+    font-size: 16px;
+  }
 }
-.section2ha p {
-  margin: 5px;
-}
-.section2ha h1 {
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  margin: 5px;
-  text-align: center;
-}
-.section2ha .section2ha-ph {
-  justify-content: center;
-}
-
 #suscribete {
   background-color: lightgray;
   text-align: center;
