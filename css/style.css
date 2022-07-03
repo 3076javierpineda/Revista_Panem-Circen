@@ -12,6 +12,13 @@ header p {
   color: white;
 }
 
+.section2ha p {
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  width: 400px;
+}
+
 #suscribete .sectionform h2 {
   font-size: 50px;
   font-family: "Roboto", sans-serif;
@@ -101,6 +108,30 @@ footer i:hover {
     flex-direction: column;
   }
 }
+.section2h {
+  background-color: beige;
+}
+
+.section2ha {
+  display: flex;
+  margin: 10px;
+  justify-content: space-around;
+  border: solid 2px black;
+  align-items: center;
+}
+.section2ha p {
+  margin: 5px;
+}
+.section2ha h1 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  margin: 5px;
+  text-align: center;
+}
+.section2ha .section2ha-ph {
+  justify-content: center;
+}
+
 #suscribete {
   background-color: lightgray;
   text-align: center;
