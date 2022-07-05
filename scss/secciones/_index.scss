@@ -3,12 +3,15 @@
     .section1 li {
         font-size: 18px;
         font-weight: bold;
-        margin: .7rem;
-        
+        margin: .6rem; 
     }
-    .carousel-inner img{
-        max-height: 550px;
+
+   
+    
+        .carousel-inner img{
+        max-height: 500px;
         width: 100%;
+        margin-top: 10px;
     }
     .carousel-inner{
         height: 500px;
