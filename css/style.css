@@ -96,7 +96,6 @@ footer h1:hover::before {
 #index .carousel-inner img {
   height: 750px;
   width: 100vw;
-  margin-top: 2px;
 }
 #index .carousel-inner {
   height: 750px;
@@ -126,6 +125,25 @@ footer h1:hover::before {
   max-height: 170px;
 }
 
+@media (max-width: 760px) {
+  .navbar-brand {
+    display: none;
+  }
+  .header p {
+    display: none;
+  }
+  .carousel-inner img {
+    max-height: 300px;
+    width: 100%;
+  }
+  .card img {
+    max-height: 100px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (max-width: 480px) {
   .navbar-brand {
     display: none;
