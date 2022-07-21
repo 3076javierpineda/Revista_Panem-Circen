@@ -9,6 +9,8 @@ footer{
     }
     i:hover{
         transform:  scale(1.2);
-        transition: all 0.5s ease-in-out;
+    }
+    h1:hover::before{
+        content: "Disfruta la revista de ";
     }
 }
