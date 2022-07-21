@@ -49,7 +49,7 @@ header p {
 
 header {
   background-color: grey;
-  background-image: linear-gradient(to top, rgb(179, 138, 62), rgb(43, 30, 7));
+  background-image: linear-gradient(to right, rgb(179, 138, 62), rgb(43, 30, 7));
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -58,6 +58,9 @@ header {
 header h1 {
   font-family: "Titan One", cursive;
   color: white;
+}
+header p {
+  padding-top: 15px;
 }
 header h1:hover {
   transform: scale(1.5);
@@ -83,6 +86,7 @@ footer h1:hover::before {
 
 #index {
   background-color: #474747;
+  background-image: linear-gradient(to left, rgb(179, 138, 62), #474747);
 }
 #index .section1 li {
   font-size: 18px;
@@ -106,6 +110,7 @@ footer h1:hover::before {
 #index .section3 h3 {
   font-family: "Roboto", sans-serif;
   text-align: center;
+  color: black;
 }
 #index .list-group-item {
   text-align: center;
@@ -115,6 +120,7 @@ footer h1:hover::before {
 #index .section4 {
   font-family: "Roboto", sans-serif;
   text-align: center;
+  padding-bottom: 30px;
 }
 #index .card img {
   max-height: 170px;
@@ -153,9 +159,12 @@ footer h1:hover::before {
   }
 }
 #suscribete {
-  background-color: lightgray;
+  background-image: linear-gradient(to left, rgb(179, 138, 62), #474747);
   text-align: center;
   font-weight: bold;
+}
+.form-label {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

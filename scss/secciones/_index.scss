@@ -1,5 +1,6 @@
 #index{
     background-color:#474747;
+    background-image: linear-gradient(to left, rgb(179, 138, 62), #474747);
     .section1 li {
         font-size: 18px;
         font-weight: bold;
@@ -25,6 +26,7 @@
     .section3 h3{
         font-family:$Roboto;
         text-align: center;
+        color: black;
         }
     .list-group-item{
             text-align: center;
@@ -35,6 +37,7 @@
     .section4{
         font-family:$Roboto;
         text-align: center;
+        padding-bottom: 30px;
     }
 
     .card img{

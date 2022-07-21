@@ -1,11 +1,14 @@
 #suscribete{
-    background-color: lightgray;
+    background-image: linear-gradient(to left, rgb(179, 138, 62), #474747);
     text-align: center;
     font-weight: bold;
     .sectionform h2{
        @extend %estilosTitulo;
     }
     
+}
+.form-label{
+    color: black;
 }
 
   

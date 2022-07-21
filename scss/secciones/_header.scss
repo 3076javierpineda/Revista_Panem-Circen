@@ -1,6 +1,6 @@
 header{
     background-color: $colorFondo;
-    background-image: linear-gradient(to top, rgb(179, 138, 62), rgb(43, 30, 7));
+    background-image: linear-gradient(to right, rgb(179, 138, 62), rgb(43, 30, 7));
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -11,6 +11,7 @@ header{
     }
     p{
         @extend %estilosParrafo;
+        padding-top: 15px;
     }
     h1:hover{
         transform:  scale(1.5);
