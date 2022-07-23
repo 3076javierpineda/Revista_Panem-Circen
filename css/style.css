@@ -54,7 +54,6 @@ header {
   background-color: grey;
   background-image: linear-gradient(to right, rgb(179, 138, 62), rgb(43, 30, 7));
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -182,6 +181,27 @@ footer h1:hover::before {
     font-size: 15px;
   }
 }
+.quienessomos1 {
+  width: 800px;
+  margin: 23px auto;
+}
+
+.quienessomos1 ul {
+  list-style: none;
+}
+
+.quienessomos1 a {
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  padding: 1.5px;
+  border: solid 1px black;
+}
+
+.quienessomos a:hover {
+  background-color: gray;
+}
+
 #suscribete {
   background-image: linear-gradient(to left, rgb(179, 138, 62), #474747);
   text-align: center;
@@ -189,6 +209,27 @@ footer h1:hover::before {
 }
 .form-label {
   color: black;
+}
+
+.terminoscheck a {
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  padding: 1.5px;
+  border: solid 1px black;
+}
+
+.terminoscheck a:hover {
+  background-color: gray;
+}
+
+.privacidad {
+  width: 850px;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 19px;
 }
 
 /*# sourceMappingURL=style.css.map */
