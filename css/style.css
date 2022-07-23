@@ -28,6 +28,7 @@ header p {
 
 .section2ha {
   display: flex;
+  flex-wrap: wrap;
   margin: 10px;
   padding: 5px;
   justify-content: space-around;
@@ -38,13 +39,15 @@ header p {
   margin: 5px;
 }
 .section2ha h1 {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Roboto", sans-serif;
-  margin: 5px;
+  margin-bottom: 18px;
   text-align: center;
 }
 .section2ha .section2ha-ph p {
   margin: 0 auto;
+  font-size: 14px;
+  color: black;
 }
 
 header {
@@ -145,6 +148,9 @@ footer h1:hover::before {
   }
 }
 @media (max-width: 480px) {
+  #index .carousel-inner {
+    height: 350px;
+  }
   .navbar-brand {
     display: none;
   }
@@ -156,7 +162,7 @@ footer h1:hover::before {
     width: 100%;
   }
   .card img {
-    max-height: 100px;
+    max-height: 300px;
   }
   .footer {
     display: flex;
@@ -164,7 +170,7 @@ footer h1:hover::before {
   }
 }
 .section2h {
-  background-color: beige;
+  background-color: lightgray;
 }
 
 @media (max-width: 480px) {
@@ -173,7 +179,7 @@ footer h1:hover::before {
     border: none;
   }
   .section2ha p {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 #suscribete {

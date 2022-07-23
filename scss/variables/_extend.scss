@@ -21,6 +21,7 @@
 
 %estilosdivhogar{
         display: flex;
+        flex-wrap: wrap;
         margin: 10px;
         padding: 5px;
         justify-content: space-around;
@@ -31,13 +32,15 @@
             margin: 5px;
         }
         h1{
-            font-size: 20px;
+            font-size: 18px;
             font-family: $Roboto;
-            margin: 5px;
+            margin-bottom: 18px;
             text-align: center;
         }
         .section2ha-ph p{
             margin: 0 auto;
+            font-size: 14px;
+            color: black;
         }
 }
 

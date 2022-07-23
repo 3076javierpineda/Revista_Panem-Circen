@@ -69,6 +69,10 @@
 
 @media (max-width:480px){
 
+    #index .carousel-inner{
+        height: 350px;
+    }
+
     .navbar-brand{
         display: none;
     }
@@ -83,7 +87,8 @@
     }
 
     .card img{
-        max-height: 100px;
+        max-height: 300px;
+        
     } 
 
     .footer{
