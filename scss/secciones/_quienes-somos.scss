@@ -1,11 +1,16 @@
 
+.quienessomos{
+    flex-wrap: wrap;
+
+}
 .quienessomos1 {
     width: 800px;
     margin: 23px auto;
+    flex-wrap: wrap;
   }
 
 .quienessomos1 ul{
-        list-style: none;
+    list-style: none;
 }
 
 .quienessomos1 a {
@@ -15,6 +20,37 @@
     padding: 1.5px;
     border: solid 1px black;
 }
+.quienessomos1 img{
+    position: relative;
+    right: 80px;
+}
+
 .quienessomos a:hover{
     background-color: gray;
+}
+
+@media (max-width:760px){
+
+    .quienessomos1 img{
+        width: 500px;
+        position: relative;
+        left: 5px;
+    }
+    .quienessomos1{
+        width: 600px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:480px){
+
+    .quienessomos1 img{
+        width: 400px;
+        position: relative;
+        left: 5px;
+    }
+    .quienessomos1{
+        width: 450px;
+        font-size: 14px;
+    }
 }

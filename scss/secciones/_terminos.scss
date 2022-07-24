@@ -6,3 +6,26 @@
     margin: 0 auto;
     font-size: 19px;
 }
+
+.btn a{
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+    padding: 5px;
+}
+
+.btn a:hover{
+    background-color: gray;
+}
+
+@media (max-width:760px){
+    .privacidad{
+        width: 600px;
+    }
+}
+
+@media (max-width:480px){
+    .privacidad{
+        width: 450px;
+    }
+}
